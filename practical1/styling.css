@@ -1,0 +1,13 @@
+ol{
+    list-style-type: upper-roman;
+    margin: 20px;
+    font-family: Arial, sans-serif;
+}
+
+.head {
+    font-weight: bold;
+}
+
+.head:hover {
+    color: blue;
+}
