@@ -1,0 +1,25 @@
+
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+}
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+th, td {
+    border: 1px solid #c9bebe;
+    padding: 8px;
+    text-align: center;
+}
+th {
+    background-color: #f9f7f7;
+}
+tr:nth-child(even) {
+    background-color: #eddcdc;
+}
+.time-slot {
+    background-color: #f9f7f7;
+    font-weight: bold;
+}

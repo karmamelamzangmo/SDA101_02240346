@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Web Component Card Example</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <h1>Reusable Card Component</h1>
+
+    <custom-card 
+        card-title="Card Title 1" 
+        card-background="#f0f0f0" 
+        card-border-color="#007BFF">
+        <span slot="header">Header Content</span>
+        <p slot="content">This is the main content of the card. You can put any HTML here.</p>
+        <button slot="footer">Click Me</button>
+    </custom-card>
+
+    <custom-card 
+        card-title="Card Title 2" 
+        card-background="#e0f7fa" 
+        card-border-color="#FF5722">
+        <img slot="header" src="https://via.placeholder.com/150" alt="Placeholder Image">
+        <p slot="content">Another card with an image in the header.</p>
+        <span slot="footer">Footer Content</span>
+    </custom-card>
+
+    <script src="card-component.js"></script>
+</body>
+</html>

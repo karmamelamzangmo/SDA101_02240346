@@ -1,0 +1,19 @@
+css
+
+ol {
+    list-style-type: upper-alpha;
+    margin: 20px;
+    font-family: arial, sans-serif;
+}
+
+.Events {
+    font-weight: bold;
+}
+
+.Events:hover {
+    color: blue;
+}
+
+.main {
+    margin: auto;   
+}

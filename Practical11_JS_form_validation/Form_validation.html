@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration Form with Validation</title>
+    <link href="formvalidation.css" rel="stylesheet">
+    <style>
+        .error {
+            color: red;
+            font-size: 0.875rem;
+        }
+    </style>
+</head>
+<body class="bg-gray-100 flex items-center justify-center h-screen">
+
+    <div class="w-full max-w-md p-8 bg-white rounded-lg shadow-md">
+        <h2 class="text-2xl font-bold mb-6 text-center">Register</h2>
+        <form id="registrationForm">
+            <div class="mb-4">
+                <label for="username" class="block text-sm font-medium">Username</label>
+                <input type="text" id="username" class="mt-1 p-2 border border-gray-300 rounded w-full" required>
+                <div id="usernameError" class="error"></div>
+            </div>
+            <div class="mb-4">
+                <label for="email" class="block text-sm font-medium">Email</label>
+                <input type="email" id="email" class="mt-1 p-2 border border-gray-300 rounded w-full" required>
+                <div id="emailError" class="error"></div>
+            </div>
+            <div class="mb-4">
+                <label for="password" class="block text-sm font-medium">Password</label>
+                <input type="password" id="password" class="mt-1 p-2 border border-gray-300 rounded w-full" required>
+                <div id="passwordError" class="error"></div>
+            </div>
+            <div class="mb-4">
+                <label for="confirmPassword" class="block text-sm font-medium">Confirm Password</label>
+                <input type="password" id="confirmPassword" class="mt-1 p-2 border border-gray-300 rounded w-full" required>
+                <div id="confirmPasswordError" class="error"></div>
+            </div>
+            <button type="submit" id="submitBtn" class="w-full bg-blue-600 text-white py-2 rounded disabled:opacity-50" disabled>Register</button>
+        </form>
+    </div>
+
+    <script src="Formvalidation.js"></script>
+</body>
+</html>

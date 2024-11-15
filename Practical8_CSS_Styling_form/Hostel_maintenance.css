@@ -1,0 +1,33 @@
+.credits {
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+}
+
+.input {
+    align-items: center;
+    gap: 10px;
+    border: 1px solid black;
+    border-radius: 3px;
+}
+
+.submit {
+    border-radius: 5px;
+}
+.submit:hover {
+    color: white;
+    background-color: blue;
+}   
+.main{
+    margin: auto;
+    width: 400px;
+    height: 500px;
+    background-color: aqua;
+    border-radius: 15px;
+    text-align: center;
+
+}  
+
+.description {
+    height: 50px;
+    
+}
